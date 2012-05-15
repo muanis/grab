@@ -4,12 +4,12 @@
 	<Description about="urn:mozilla:install-manifest">
 	  <!-- 02450954-cdd9-410f-b1da-db804e18c671 - original screengrab uuid -->
 		<em:id>{13881E15-BE80-47CD-8F82-6689BF0245DE}</em:id>
-		<em:name>Grab!</em:name>
+		<em:name>Screengrab!</em:name>
 		<em:version>0.98</em:version>
-		<em:description>Saves the current web page to a file.</em:description>
-		<em:creator>Jose Muanis</em:creator>
+		<em:description>Saves the current web page to a file. Jose Muanis (http://github.com/muanis) maintains this fork. Raise any issues there.</em:description>
+		<em:creator>Andy Mutton</em:creator>
 		
-		<em:contributor>Andy Mutton for all the hard work on Screengrab!</em:contributor>
+		<em:contributor>Jose Muanis (http://github.com/muanis) maintains this fork</em:contributor>
 		<em:contributor>Jean-Bernard 'Goofy' Marcon from babelzilla.org (Help with locales)</em:contributor>
 		<em:contributor>All of the guys at babelzilla.org (Translations)</em:contributor>
 		<em:contributor>Dominic Letz (SecurityException bug fix)</em:contributor>

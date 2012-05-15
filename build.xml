@@ -14,14 +14,15 @@
 
     <!-- Set this property to your Firefox profile directory -->
     <property name="ff-profile-dir" location="/Users/jmuanis/Library/Application Support/Firefox/Profiles/3ev2586z.Grab" />
-    <property name="ff-app" location="/Applications/Firefox4.app/Contents/MacOS/firefox" />
+    <property name="ff-app" location="/Applications/Firefox.app/Contents/MacOS/firefox" />
 
     <property name="extension-dir" location="${ff-profile-dir}/extensions" />
 
     <target name="launch-ff-in-console-mode">
         <exec executable="${ff-app}">
-            <arg value="-jsconsole"/>
-            <arg value="-profile ${ff-profile-dir}"/>
+            <arg value="-profile"/>
+            <arg value="${ff-profile-dir}" />
+            <arg value="-jsconsole" />
         </exec>
     </target>
 

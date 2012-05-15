@@ -1,6 +1,3 @@
-/**
- * @author andy
- */
 try {
 	// configure logging (will be loaded into screengrab.log4js)
 	screengrab.log4js = {};
@@ -18,7 +15,6 @@ try {
 		jsConsoleAppender.setLayout(new screengrab.log4js.MozStackLayout(false));
 		
 		logger.addAppender(new screengrab.log4js.FirefoxConsoleAppender(logger));
-		//logger.addAppender(new screengrab.log4js.FirefoxFileAppender(logger, screengrab.prefs.loggerFileName()));
 		logger.addAppender(jsConsoleAppender);
 		screengrab.debug = function(msg) {
 			if (loggingEnabled) {

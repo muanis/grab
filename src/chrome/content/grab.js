@@ -1,6 +1,3 @@
-/**
- * @author andy
- */
 screengrab.Grab = function(target, capture, action) {
 	try {
 		target.obtainDimensions(function(browser, dimensions) {
