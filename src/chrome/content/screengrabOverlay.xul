@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://screengrab/skin/screengrab.css" type="text/css"?>
+<?xml-stylesheet href="chrome://screengrab/skin/toolbar.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://screengrab/locale/screengrab.dtd">
+
+<overlay id="screengrabOverlay" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://global/content/nsUserSettings.js" />
+<script type="application/x-javascript" src="chrome://screengrab/content/header.js" />
+<script type="application/x-javascript" src="chrome://screengrab/content/target.js" />
+<script type="application/x-javascript" src="chrome://screengrab/content/action.js" />
+<script type="application/x-javascript" src="chrome://screengrab/content/grab.js" />
+<script type="application/x-javascript" src="chrome://screengrab/content/prefs.js" />
+<script type="application/x-javascript" src="chrome://screengrab/content/log4js.js" />
+
+<script type="application/x-javascript" src="chrome://screengrab/content/browser.js" />
+<script type="application/x-javascript" src="chrome://screengrab/content/document.js" />
+<script type="application/x-javascript" src="chrome://screengrab/content/undoset.js" />
+<script type="application/x-javascript" src="chrome://screengrab/content/box.js" />
+<script type="application/x-javascript" src="chrome://screengrab/content/capture.js" />
+<script type="application/x-javascript" src="chrome://screengrab/content/embeddedcapture.js" />
+<script type="application/x-javascript" src="chrome://screengrab/content/file.js" />
+
+
+<!-- Context menu additions -->
+<popup id="contentAreaContextMenu">
+    <menuseparator id="screengrab-context-separator"/>
+    <menuitem id="pop-grabFrame" label="&screengrab.name;" oncommand="sg.Grab(new sg.FrameTarget(), sg.CaptureViewPort, new sg.SaveAction());" />
+</popup>
+
+<stringbundleset id="stringbundleset">
+   <stringbundle id="screengrab-strings" src="chrome://screengrab/locale/screengrab.properties"/>
+</stringbundleset>
+
+
+</overlay>
