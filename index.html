@@ -12,6 +12,24 @@
   </head>
 
   <body>
+    
+    <script type="application/javascript">
+    <!--
+    function install (aEvent)
+    {
+      var params = {
+        "Foo": { URL: aEvent.target.href,
+                 IconURL: aEvent.target.getAttribute("iconURL"),
+                 Hash: aEvent.target.getAttribute("hash"),
+                 toString: function () { return this.URL; }
+        }
+      };
+      InstallTrigger.install(params);
+
+      return false;
+    }
+    -->
+    </script>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
@@ -21,20 +39,24 @@
           <h1 id="project_title">Grab</h1>
           <h2 id="project_tagline">Firefox extension to grab a page as a image file, that's what it does.</h2>
 
-            <section id="downloads">
+<!--            <section id="downloads">
               <a class="zip_download_link" href="https://github.com/muanis/grab/zipball/master">Download this project as a .zip file</a>
               <a class="tar_download_link" href="https://github.com/muanis/grab/tarball/master">Download this project as a tar.gz file</a>
-            </section>
+            </section>-->
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
+        <h3>Welcome to Grab!</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
+<p>This little extension allow you to grab complete pages. <a href="https://github.com/downloads/muanis/grab/grab_v0.97.xpi"
+          iconURL="http://www.example.com/foo.png"
+          hash="sha1:f3baddc1f61da685939d9cc9a6c54284d3239ade"
+          onclick="return install(event);">Install grab on Firefox!</a>    
+</p>
+<!--
 <pre><code>$ cd your_repo_root/repo_name
 $ git fetch origin
 $ git checkout gh-pages
@@ -53,10 +75,10 @@ $ git checkout gh-pages
 <h3>Authors and Contributors</h3>
 
 <p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
+-->
 <h3>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p>Having trouble with Grab? Contact <a href="mailto:muanis@gmail.com">muanis@gmail.com</a> and I’ll help you sort it out.</p>
       </section>
     </div>
 
