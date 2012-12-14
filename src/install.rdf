@@ -5,7 +5,7 @@
 	  <!-- 02450954-cdd9-410f-b1da-db804e18c671 - original screengrab uuid -->
 		<em:id>{13881E15-BE80-47CD-8F82-6689BF0245DE}</em:id>
 		<em:name>Grab!</em:name>
-		<em:version>0.97</em:version>
+		<em:version>0.98</em:version>
 		<em:description>Saves the current web page to a file. Jose Muanis (http://github.com/muanis) maintains this fork. Raise any issues there.</em:description>
 		<em:creator>Jose Muanis</em:creator>
 		
@@ -23,7 +23,7 @@
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<em:minVersion>3.6</em:minVersion>
-				<em:maxVersion>13.*</em:maxVersion>
+				<em:maxVersion>16.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 	</Description>
